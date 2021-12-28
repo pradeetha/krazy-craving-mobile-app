@@ -1,0 +1,27 @@
+#Page0 .top-header-row {
+  height: 60px;
+  background-color: #101010;
+}
+
+#Page0 .ui-header {
+  border-width: 0px !important;
+}
+
+#Page0 .page-content {
+  height: 964px;
+  background: no-repeat;
+  background-size: cover;
+}
+
+#Page0 .ui-content {
+  padding: 0px !important;
+}
+
+/* Media Query */
+@media only screen and (max-width: 375px) {
+  .page-content {
+    background-image: url(../images/brooke-lark-jUPOXXRNdcA-unsplash-phone.jpg) !important;
+    height: 752px !important;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
